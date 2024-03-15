@@ -1,0 +1,247 @@
+.main-section {
+  border: 1px solid #000;
+  width: 10 0%;
+}
+
+.left-sidebar {
+  background-color: #3a3a3a;
+  padding: 0px;
+}
+
+.searchbox {
+  width: 100%;
+  padding: 27px 10px;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control,
+.search-icon,
+.search-icon:hover {
+  background-color: #6a6c75;
+  border: 1px solid #fff;
+  color: #fff;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  border: 1px solid #fff;
+}
+
+.chat-left-img,
+.chat-left-details {
+  float: left;
+}
+
+.chat-left-details i {
+  margin-right: 5px;
+  margin-top: -20;
+}
+
+.left-chat {
+  overflow-y: scroll;
+}
+
+.left-chat ul {
+  overflow: hidden;
+  padding: 0px;
+}
+
+.left-chat ul li {
+  list-style: none;
+  width: 100%;
+  float: left;
+  margin: 10px 0px 8px 15px;
+}
+
+.chat-left-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: left;
+  float: fixed;
+  border: 3px solid #6b6f79;
+}
+
+.chat-left-details {
+  margin-left: 10px;
+}
+
+.chat-left-details p {
+  margin: 0px;
+  color: #fff;
+  padding: 7px 0px 0px;
+}
+
+.chat-left-details span {
+  color: #b8bac3;
+}
+.chat-left-details span i {
+  color: #86bb71;
+  font-size: 10px;
+}
+
+.chat-left-details .orange {
+  color: #e38968;
+}
+
+.right-sidebar {
+  border-left: 2px solid #000;
+}
+
+.right-header {
+  border-bottom: 2px solid #000;
+  margin: 0px;
+  padding: 0px;
+}
+
+.right-header-img img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 3px solid #61bc71;
+  margin-right: 10px;
+}
+
+.right-header {
+  padding: 20px;
+  height: 90px;
+  background-color: #3a3a3a;
+}
+
+.right-header-detail p {
+  margin: 0px;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.right-header-detail span {
+  color: #9fa5af;
+  font-size: 12px;
+}
+
+.rightside-left-chat,
+.rightside-right-chat {
+  float: left;
+  width: 80%;
+  position: relative;
+}
+
+.rightside-right-chat {
+  float: right;
+  margin-right: 35px;
+}
+
+.right-header-contentChat {
+  overflow-y: scroll;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.right-header-contentChat ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.right-header-contentChat .rightside-left-chat p,
+.right-header-contentChat .rightside-right-chat p {
+  background-color: #efefee;
+  padding: 15px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: black;
+}
+
+.right-header-contentChat .rightside-right-chat p {
+  background-color: #86bb71;
+}
+
+.right-chat-text-box {
+  padding: 15px 30px;
+  width: 100%;
+  background-color: #3a3a3a;
+}
+
+.right-chat-text-box input {
+  width: 80%;
+  height: 40px;
+  border: 2px solid #3d85ca;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 0px 10px;
+  border: 1px solid #c1c1c1;
+}
+
+.right-chat-text-box button {
+  height: 40px;
+  width: 70px;
+  margin-left: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.rightside-left-chat span i,
+.rightside-right-chat span i {
+  color: #86bb71;
+  font-size: 12px;
+}
+
+.rightside-right-chat span i {
+  color: #86bb71;
+}
+
+.rightside-right-chat span {
+  float: right;
+}
+
+.rightside-right-chat span small,
+.rightside-left-chat span small {
+  color: #8d8dc2;
+}
+
+.rightside-left-chat::before {
+  content: " ";
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  bottom: 150px;
+  border: 15px solid transparent;
+  border-bottom-color: #efefee;
+  z-index: 1;
+}
+
+.rightside-right-chat::before {
+  content: " ";
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  bottom: 150px;
+  border: 15px solid transparent;
+  border-bottom-color: #86bb71;
+}
+
+@media only screen and (max-width: 320px) {
+  .main-section {
+    display: none;
+  }
+}

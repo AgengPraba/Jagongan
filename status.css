@@ -1,0 +1,137 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #606465;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+#img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#img-sender {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+i {
+  color: #0f0f0f;
+  font-size: 20px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.status {
+  background-color: #000;
+  min-height: 100vh;
+  width: 70%;
+}
+
+.timestamp {
+  font-size: 12px;
+}
+
+.fa-paper-plane {
+  color: white;
+}
+
+textarea {
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+}
+
+input#image {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tweet {
+  margin: auto;
+  width: 98%;
+  background: #fff;
+}
+
+.tweet-body {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  width: 45px;
+}
+
+.foto {
+  width: 28px;
+  height: 28px;
+  margin-left: 80px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.foto-status {
+  width: 60%;
+  max-height: 460px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.foto-status img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav {
+    width: 100%;
+  }
+
+  .status {
+    width: 100%;
+  }
+
+  body {
+    background-color: #ccf8f4;
+  }
+
+  .status {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .kolom1,
+  .kolom3 {
+    width: 8.33%;
+  }
+  .kolom2 {
+    width: 25.33%;
+  }
+
+  .fa-paper-plane {
+    margin-left: -3px;
+    font-size: medium;
+  }
+
+  .btn {
+    width: 40px;
+  }
+}

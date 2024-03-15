@@ -1,0 +1,90 @@
+body {
+  overflow-x: hidden;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card img {
+  height: 200px;
+  align-self: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.search-input {
+  width: 79%;
+  height: 36px;
+}
+.search-btn {
+  padding: 0px;
+  width: 20%;
+  height: 38px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+form.search_form button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid black !important;
+  border-left: none;
+  cursor: pointer;
+  background-color: black !important;
+}
+
+form.search_form button:hover {
+  background-color: black !important;
+}
+
+form.search_form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-right: 50px;
+}
